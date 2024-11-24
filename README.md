@@ -2,6 +2,13 @@
 
 A simple and functional Kanban board built using Vue 3, Vuex, and Vite. This application supports task management with features like drag-and-drop, task prioritization, and real-time search.
 
+## Live Demo
+[View the live demo here](https://kanban-todo-app-8g8e.onrender.com)
+
+## Screenshot
+
+![image](https://github.com/user-attachments/assets/7593048f-549e-4927-b860-596483663a6a)
+
 ## Features
 
 - **Task Creation**: Add tasks with descriptions, due dates, and priority levels.
