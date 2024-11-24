@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import { svgPaths } from "@/assets/paths.svg";
+import { svgPaths } from "@/assets/icons/paths.svg";
 import { IICon } from "@/types/icon";
 
 const props = defineProps<IICon>();

@@ -1,4 +1,4 @@
-import { SvgIconName } from "@/assets/paths.svg";
+import { SvgIconName } from "@/assets/icons/paths.svg";
 
 export interface IICon {
   name: SvgIconName;

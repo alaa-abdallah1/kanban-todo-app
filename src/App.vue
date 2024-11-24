@@ -1,15 +1,9 @@
 <template>
   <div class="app">
-    <KanbanBoard />
+    <AppKanbanBoard />
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import KanbanBoard from "@/components/templates/KanbanBoard.vue";
-
-export default defineComponent({
-  name: "App",
-  components: { KanbanBoard },
-});
+<script lang="ts" setup>
+import { AppKanbanBoard } from "@/components";
 </script>
