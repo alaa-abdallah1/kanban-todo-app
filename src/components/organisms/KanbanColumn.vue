@@ -174,7 +174,6 @@ const handleDragLeave = () => {
 
 const handleDrop = (event: DragEvent) => {
   const taskId = event.dataTransfer?.getData("text/plain");
-  console.log("taskId: ", taskId);
   if (!taskId) return;
 
   if (draggedFromColumn.value !== props.column.status) {

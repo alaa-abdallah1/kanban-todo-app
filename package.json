@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "vue": "^3.3.4",
-    "vue-draggable-next": "^2.0.0",
     "vuex": "^4.1.0"
   },
   "devDependencies": {

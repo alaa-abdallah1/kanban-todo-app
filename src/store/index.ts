@@ -10,7 +10,6 @@ export default createStore({
       state.tasks = tasks;
     },
     addTask(state, task: Task) {
-      console.log("task: ", task);
       state.tasks.push(task);
     },
     updateTask(state, updatedTask: Task) {
